@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("helpers/%d0%b7%d0%b0%d0%b2%d0%b0%d0%bd%d1%82%d0%b0%d0%b6%d0%b5%d0%bd%d0%bd%d1%8f." +
-    "png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("helpers/circle-icon-storage-stack.png")]
 
 

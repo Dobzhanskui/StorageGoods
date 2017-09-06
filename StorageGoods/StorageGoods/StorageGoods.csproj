@@ -104,5 +104,11 @@
   <ItemGroup>
     <Resource Include="Helpers\storage.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Helpers\StorageGoods.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Helpers\circle-icon-storage-stack.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

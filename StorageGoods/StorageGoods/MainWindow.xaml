@@ -5,8 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StorageGoods"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Icon="Helpers/circle-icon-storage-stack.png" Title="Storage Goods" Height="500" Width="600">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Menu>
+            <MenuItem Header="File" BorderBrush="Bisque">
+                <MenuItem Header="Add user"/>
+                <MenuItem Header="Add goods"/>
+                <Separator></Separator>
+                <MenuItem Header="Exit"/>
+            </MenuItem>
+            <MenuItem Header="View" BorderBrush="GreenYellow">
+                <MenuItem Header="Info panel"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Chart" BorderBrush="Red">
+                <MenuItem Header="Show"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <TabControl Grid.Row="1" Margin="1">
+            <TabItem Header="Goods" BorderBrush="Aqua">
+                <ListView x:Name="ListGoods" Grid.Row="1" Margin="1">
+                    <ListView.View>
+                        <GridView>
+                            <GridView.Columns>
+                                <GridViewColumn Header="Name" DisplayMemberBinding="{Binding ModelName}"/>
+                                <GridViewColumn Header="Model" DisplayMemberBinding="{Binding ModelNumber}"/>
+                                <GridViewColumn Header="Price" DisplayMemberBinding="{Binding ModelPrice}"/>
+                            </GridView.Columns>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+            <TabItem Header="User" BorderBrush="Blue">
+                <ListView x:Name="ListUsers" Grid.Row="1" Margin="1">
+                    <ListView.View>
+                        <GridView>
+                            <GridView.Columns>
+                                <GridViewColumn Header="User name" DisplayMemberBinding="{Binding UserName}"/>
+                                <GridViewColumn Header="Surname" DisplayMemberBinding="{Binding Surname}"/>
+                                <GridViewColumn Header="Phone number" DisplayMemberBinding="{Binding PhoneNumber}"/>
+                            </GridView.Columns>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
