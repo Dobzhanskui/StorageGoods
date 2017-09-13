@@ -1,0 +1,11 @@
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\bin\Debug\StorageGoods.exe.config
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\bin\Debug\StorageGoods.exe
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\bin\Debug\StorageGoods.pdb
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.csprojResolveAssemblyReference.cache
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.AddGoods.resources
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.AddUsers.resources
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.StorageGoods.resources
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.Properties.Resources.resources
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.csproj.GenerateResource.Cache
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.exe
+c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.pdb
