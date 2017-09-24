@@ -19,7 +19,11 @@ namespace StorageGoods
 
         #region Properties
 
-        public DateTime Time => DateTime.Now;
+        public DateTime Time
+        {
+            get => DateTime.Now;
+             set { Time = value; }
+        }
 
         public string NameUser
         {

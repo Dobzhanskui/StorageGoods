@@ -49,15 +49,18 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dgvUsers = new System.Windows.Forms.DataGridView();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.додатиПокупцяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.редагуватиПокупцяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.видалитиПокупцяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.colDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colSurname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colPhoneNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colGoods = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.додатиПокупцяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.редагуватиПокупцяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.видалитиПокупцяToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.гістограмаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.лінійнаДіаграмаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -125,6 +128,9 @@
             // 
             // chartToolStripMenuItem
             // 
+            this.chartToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.гістограмаToolStripMenuItem,
+            this.лінійнаДіаграмаToolStripMenuItem});
             this.chartToolStripMenuItem.Name = "chartToolStripMenuItem";
             this.chartToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.chartToolStripMenuItem.Text = "Діаграми";
@@ -238,6 +244,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvUsers.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colDate,
             this.colName,
             this.colSurname,
             this.colPhoneNumber,
@@ -247,36 +254,8 @@
             this.dgvUsers.Location = new System.Drawing.Point(0, 6);
             this.dgvUsers.Name = "dgvUsers";
             this.dgvUsers.RowHeadersVisible = false;
-            this.dgvUsers.Size = new System.Drawing.Size(553, 490);
+            this.dgvUsers.Size = new System.Drawing.Size(1122, 490);
             this.dgvUsers.TabIndex = 0;
-            // 
-            // colName
-            // 
-            this.colName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colName.HeaderText = "Ім\'я";
-            this.colName.Name = "colName";
-            // 
-            // colSurname
-            // 
-            this.colSurname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colSurname.HeaderText = "Фамілія";
-            this.colSurname.Name = "colSurname";
-            // 
-            // colPhoneNumber
-            // 
-            this.colPhoneNumber.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colPhoneNumber.HeaderText = "Номер телефону";
-            this.colPhoneNumber.Name = "colPhoneNumber";
-            // 
-            // colGoods
-            // 
-            this.colGoods.HeaderText = "Товар";
-            this.colGoods.Name = "colGoods";
-            // 
-            // colStatus
-            // 
-            this.colStatus.HeaderText = "Статус";
-            this.colStatus.Name = "colStatus";
             // 
             // contextMenuStrip1
             // 
@@ -307,6 +286,54 @@
             this.видалитиПокупцяToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
             this.видалитиПокупцяToolStripMenuItem.Text = "Видалити покупця";
             this.видалитиПокупцяToolStripMenuItem.Click += new System.EventHandler(this.видалитиПокупцяToolStripMenuItem_Click);
+            // 
+            // colDate
+            // 
+            this.colDate.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colDate.HeaderText = "Час ";
+            this.colDate.Name = "colDate";
+            // 
+            // colName
+            // 
+            this.colName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colName.HeaderText = "Ім\'я";
+            this.colName.Name = "colName";
+            // 
+            // colSurname
+            // 
+            this.colSurname.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colSurname.HeaderText = "Фамілія";
+            this.colSurname.Name = "colSurname";
+            // 
+            // colPhoneNumber
+            // 
+            this.colPhoneNumber.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colPhoneNumber.HeaderText = "Номер телефону";
+            this.colPhoneNumber.Name = "colPhoneNumber";
+            // 
+            // colGoods
+            // 
+            this.colGoods.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colGoods.HeaderText = "Товар";
+            this.colGoods.Name = "colGoods";
+            // 
+            // colStatus
+            // 
+            this.colStatus.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colStatus.HeaderText = "Статус";
+            this.colStatus.Name = "colStatus";
+            // 
+            // гістограмаToolStripMenuItem
+            // 
+            this.гістограмаToolStripMenuItem.Name = "гістограмаToolStripMenuItem";
+            this.гістограмаToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.гістограмаToolStripMenuItem.Text = "Гістограма";
+            // 
+            // лінійнаДіаграмаToolStripMenuItem
+            // 
+            this.лінійнаДіаграмаToolStripMenuItem.Name = "лінійнаДіаграмаToolStripMenuItem";
+            this.лінійнаДіаграмаToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.лінійнаДіаграмаToolStripMenuItem.Text = "Лінійна діаграма";
             // 
             // StorageGoods
             // 
@@ -357,15 +384,18 @@
         private System.Windows.Forms.ToolStripMenuItem редагуватиПокупцяToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem видалитиПокупцяToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem гістограмаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem лінійнаДіаграмаToolStripMenuItem;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colDate;
         private System.Windows.Forms.DataGridViewTextBoxColumn colName;
         private System.Windows.Forms.DataGridViewTextBoxColumn colSurname;
         private System.Windows.Forms.DataGridViewTextBoxColumn colPhoneNumber;
         private System.Windows.Forms.DataGridViewTextBoxColumn colGoods;
         private System.Windows.Forms.DataGridViewTextBoxColumn colStatus;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
     }
 }
 

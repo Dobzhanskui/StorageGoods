@@ -9,3 +9,27 @@ c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\ob
 c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.csproj.GenerateResource.Cache
 c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.exe
 c:\users\vova\documents\visual studio 2017\Projects\StorageGoods\StorageGoods\obj\Debug\StorageGoods.pdb
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\StorageGoods.exe.config
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\StorageGoods.exe
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\StorageGoods.pdb
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.csprojResolveAssemblyReference.cache
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.AddGoods.resources
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.AddUsers.resources
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.StorageGoods.resources
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.Properties.Resources.resources
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.csproj.GenerateResource.Cache
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.exe
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.pdb
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.Auth.dll
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.Core.dll
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.dll
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.Drive.v3.dll
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.PlatformServices.dll
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Newtonsoft.Json.dll
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.xml
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.Auth.xml
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.Core.xml
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Google.Apis.Drive.v3.xml
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\bin\Debug\Newtonsoft.Json.xml
+E:\Work\StorageGoods\StorageGoods\StorageGoods\StorageGoods_WinForm\StorageGoods\obj\Debug\StorageGoods.csproj.CoreCompileInputs.cache

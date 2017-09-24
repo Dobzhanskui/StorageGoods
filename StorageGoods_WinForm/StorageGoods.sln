@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageGoods", "StorageGoods\StorageGoods.csproj", "{E7773FD1-0256-41F4-BC9F-9203DEBA6026}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveQuickstart", "DriveQuickstart\DriveQuickstart.csproj", "{6164FE02-CA91-4B52-96A3-28D1E7540ED2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E7773FD1-0256-41F4-BC9F-9203DEBA6026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7773FD1-0256-41F4-BC9F-9203DEBA6026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7773FD1-0256-41F4-BC9F-9203DEBA6026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6164FE02-CA91-4B52-96A3-28D1E7540ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6164FE02-CA91-4B52-96A3-28D1E7540ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6164FE02-CA91-4B52-96A3-28D1E7540ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6164FE02-CA91-4B52-96A3-28D1E7540ED2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
